@@ -1,0 +1,85 @@
+body{
+    background-image: url(//unsplash.com/s/photos/blue-and-purple-gradient);
+    background-color: #171123
+}
+
+nav{
+    background-color: #372248;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #414770;  
+}
+ul{
+    margin-left: 200px;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 125px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color:#5B85AA;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    text-decoration: none;
+    font-size: 100px;
+    color:#5B85AA;
+    font-family: "Roboto Flex", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 112.5,
+        "GRAD" -200,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+    margin-top: 100px;
+    margin-left: 610px;
+}
+
+p{
+    text-decoration: none;
+    font-size: 40px;
+    color: #5B85AA;
+    font-family: "Roboto Flex", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "wdth" 112.5,
+      "GRAD" 150,
+      "XOPQ" 96,
+      "XTRA" 468,
+      "YOPQ" 79,
+      "YTAS" 750,
+      "YTDE" -203,
+      "YTFI" 738,
+      "YTLC" 514,
+      "YTUC" 712;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+button{
+    background-color: transparent;
+    color: #5B85AA;
+    margin-top: 200px;
+    margin-left: 780px;
+    font-size: 40px;
+
+}
