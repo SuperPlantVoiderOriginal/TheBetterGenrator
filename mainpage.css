@@ -74,12 +74,14 @@ p{
     margin-top: 50px;
     margin-left: 200px;
 }
-
 button{
     background-color: transparent;
     color: #fcde9c;
-    margin-top: 200px;
-    margin-left: 780px;
     font-size: 40px;
 
+}
+bgroup button {
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
 }
