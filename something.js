@@ -1,48 +1,58 @@
 let loveRPG = document.getElementById("LoveRPG");
 let hateRPG = document.getElementById("HateRPG");
-let x = 1;
+let resetRPG = document.getElementById("ResetRPG");
+let x = 0;
 
 function LoveRPG() {
-    x++;
+    x=1;
 }
 
 function HateRPG() {
-    x--;
+    x=-1;
+}
+function ResetRPG() {
+    x=0;
 }
 
 loveRPG.onclick = LoveRPG; 
 hateRPG.onclick = HateRPG;
+resetRPG.onclick = ResetRPG;
 
 let loveFPS = document.getElementById("LoveFPS");
 let hateFPS = document.getElementById("HateFPS");
-let y = 1;
+let resetFPS = document.getElementById("ResetFPS");
+let y = 0;
 
 function LoveFPS() {
-    y++;
+    y=1;
 }
 
 function HateFPS() {
-    y--;
+    y=-1;
+}
+function HateFPS() {
+    y=0;
 }
 
 loveFPS.onclick = LoveFPS;  
 hateFPS.onclick = HateFPS;
+resetFPS.onclick = ResetRPG
 
 let buttonatton = document.getElementById("buttyon");
 let text = document.getElementById("results1");
 
 function Button() {
-    if(x<=0||y<=0){
+    if(x==0&&y==0){
         text.textContent = "No results!"; 
     }
-    if(x>=1){
+    if(x==1&&y==0||y==0){
         text.textContent = "Skyrim"; 
     }
-    if(y>=0){
+    if(y==1&&x==0){
         text.textContent = "Counter Strike 2";
     }
-    if(y>=1||x>=1){
-        text.textContent = "Borderlands";
+    if(y==1&&x==1){
+        text.textContent = "Borderlands 2";
     }
     
 }
